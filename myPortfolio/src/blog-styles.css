@@ -2,3 +2,28 @@ head {
     font-family: Arial, Helvetica, sans-serif
     
 }
+header {
+    display: grid;
+    grid-template-columns: 20% 60%;
+    width: 100%;
+    font-size: 15em
+
+  }
+
+.box {
+    background: whitesmoke;
+    padding: 2.5em;
+    object-position: 33% 66%;
+    box-shadow: 20px 20px;
+
+}
+body {
+    background: #CC527A
+}
+.h1 {
+    font-size: 2em
+}
+.p {
+    word-wrap: none;
+    
+}
