@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(./visualReferences/landingPageBG2.jpeg);
+    background-image: url(./visualReferences/macbookCodeBG.jpeg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-color: antiquewhite;
@@ -80,7 +80,7 @@ body {
   
   button {
     grid-column: 2/3;
-    /* margin: 3% 3%; */
+    margin: 3% 3%;
     width: 70%;
     height: 15%;
     font-family: Arial, Helvetica, sans-serif;
@@ -88,7 +88,8 @@ body {
     border-radius: 25px;
     background: transparent;
     padding: 10%; 
-    /* padding-bottom: 5%; */
+    align-self: center;
+    padding-bottom: 5%;
     text-align: center;
     vertical-align: center;
     color: black;
@@ -101,6 +102,25 @@ body {
 
   @media (max-width: 600px) {
 
+    button {
+      grid-column: 2/3;
+      /* margin: 3% 3%; */
+      width: 70%;
+      height: 15%;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.5rem;
+      border-radius: 25px;
+      background: transparent;
+      padding: 10%; 
+      align-self: center;
+      /* padding-bottom: 5%; */
+      text-align: center;
+      vertical-align: center;
+      color: black;
+      letter-spacing: .5%;
+      font-style: italic;
+      font-variant-position: normal;
+    }
   }
   /* Small and up (Landscape Phones) */
   @media (max-width: 576px) {

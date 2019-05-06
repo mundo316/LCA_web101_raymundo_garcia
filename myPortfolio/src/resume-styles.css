@@ -1,7 +1,10 @@
 head {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
 
 body {
-
+    font-size: 8em;
+    text-align: left;
+    font: times;
+    }
 .header {
     font-size: 8em;
     text-align: left;
