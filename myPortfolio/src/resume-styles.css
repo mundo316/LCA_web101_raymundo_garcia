@@ -1,6 +1,13 @@
 head {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
 
-body {
+.auto-grid {
+    --auto-grid-min-size: 16rem;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+        grid-gap: 1rem;
+    }
+.body {
     font-size: 8em;
     text-align: left;
     font: times;
@@ -15,4 +22,7 @@ body {
 }
 .section {
     grid-auto-columns: 1fr 2fr
-    }
+    
+
+}
+    
