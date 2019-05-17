@@ -1,0 +1,44 @@
+header {
+    
+}
+
+h1 {
+    font-size: 13rem;
+    color: antiquewhite;
+    font-display: flex;
+    flex: middle;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+body {
+    width: 850px;
+    height: 450px;
+    background-image: url(/myPortfolio/visualReferences/barbershopLanding.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: black;
+    margin: auto;
+    
+}
+
+main {
+
+}
+
+section {
+    display: flex;
+    height: 324px;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+article {
+    width: 270px;
+    height: 374;
+    font-display: antiquewhite;
+
+
+
+
+}
