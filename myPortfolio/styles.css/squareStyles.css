@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+}
+
+body > div {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+    margin-left: 50%;
+}
+#square1 {
+    background-color: #6f7f7a;
+}
+#square2 {
+    background-color: #acbcb8;
+}
+#square3 {
+    background-color: #819798;
+}
+#square4 {
+    background-color: #57615b;
+}
+#square5 {
+    background-color: #59696e;
+}
+#square6 {
+    background-color: #d4d4cc;
+}
+#square7 {
+    background-color: #a09590;
+}
+#square8 {
+    background-color: #4b5255;
+}
+#square9 {
+    background-color: #4b4e48;
+}
+#square10 {
+    background-color: #82a5a0;
+}
+#square11 {
+    background-color: #776862;
+}
+#square12 {
+    background-color: #4c4140;
+}
