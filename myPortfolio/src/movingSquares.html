@@ -10,36 +10,19 @@
 </head>
 <body>
     <h1>Moving Squares Assignment</h1>
-    <div id="square1" class="animated rotate"></div>
-    <div id="square2" class="animated rotate"></div>
-    <div id="square3" class="animated rotate"></div>
-    <div id="square4" class="animated rotate"></div>
-    <div id="square5" class="animated rotate"></div>
-    <dov id="square6" class="animated rotate"></dov>
-    <div id="square7" class="animated rotate"></div>
-    <div id="square8" class="animated rotate"></div>
-    <div id="square9" class="animated rotate"></div>
-    <div id="square10" class="animated rotate"></div>
-    <div id="square11" class="animated rotate"></div>
-    <div id="square12" class="animated rotate"></div>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3..1/jquery.js"></script>"
-   
-    <script>
-        $(function(){
-            //animate
-            function animate(element, animation){
-                $(element).addClass('animated '+animation);
-                var wait = setTimeout(function(){
-                    $(element).removeClass('animated '+animation);
-                }, 1000)
-            }
-        }
-            $(function(){
-                $('#div1').hover(function(){
-                    animate('#div1', 'slideOutRight');
-                    animate('#div2', 'slideOutLeft');
-                    return false;
-            }    
+        <div class="column">
+            <div id="square1" class="animated box center"></div>
+            <div id="square2" class="animated box center"></div>
+            <div id="square3" class="animated box center"></div>
+            <div id="square4" class="animated box center"></div>
+            <div id="square5" class="animated box center"></div>
+            <div id="square6" class="animated box center"></div>
+            <div id="square7" class="animated box center"></div>
+            <div id="square8" class="animated box center"></div>
+            <div id="square9" class="animated box center"></div>
+            <div id="square10" class="animated box center"></div>
+            <div id="square11" class="animated box center"></div>
+            <div id="square12" class="animated box center"></div>
+        </div>
 </body>
 </html>

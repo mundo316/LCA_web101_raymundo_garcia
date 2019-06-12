@@ -2,12 +2,16 @@ body {
     text-align: center;
 }
 
-body > div {
+.box {
     height: 50px;
     width: 50px;
     margin-bottom: 10px;
-    margin-left: 50%;
+    border: 1px solid black;
 }
+.column{
+    width: 100%;
+}
+
 #square1 {
     background-color: #6f7f7a;
 }
@@ -43,4 +47,26 @@ body > div {
 }
 #square12 {
     background-color: #4c4140;
+}
+.column:hover :nth-child(odd) {
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    motion-path: right;
+    translate: 50px;
+    width: 25px;
+    height: 25px;
+    
+  }
+  
+.column:hover :nth-child(even) {
+    translate: 50px;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    width: 100px;
+    height:100px;
+  }
+
+.center{
+    margin-left: 50%;
+    margin-right: 50%;
 }
