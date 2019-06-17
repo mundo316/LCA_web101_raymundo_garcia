@@ -1,0 +1,39 @@
+body {
+    
+}
+.container {
+    
+
+}
+h1 {
+    font-size: 15rem;
+    margin-bottom: 5px;
+}
+#gameboard {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    border: 2px;
+    width: 306px;
+    font-size: 4rem;
+
+}
+.grid-item {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    font-size: 6rem;
+    text-align: center;
+
+
+
+}
+.div {
+    font-size: 2rem;
+
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
