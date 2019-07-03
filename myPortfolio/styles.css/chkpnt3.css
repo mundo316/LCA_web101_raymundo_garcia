@@ -1,0 +1,52 @@
+body 
+{
+    background-color: #333333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+h1 
+{
+    font-display: white;
+    font-size: 4rem;
+    margin-left:20%;
+}
+p 
+{
+    font-display: white;
+    padding-left: 10px;
+
+}
+#petcounter 
+{
+    font-size: 5rem;
+    justify-content: center;
+}
+.container
+{
+    font: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    background-color: #666666;
+    margin-right: 30%;
+}
+
+img 
+{
+    transform: rotate(90deg);
+    max-width: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.game 
+{
+    max-width: 400px;
+    height: auto;
+    justify-content: center;
+}
